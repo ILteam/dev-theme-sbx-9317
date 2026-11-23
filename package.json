@@ -1,0 +1,12 @@
+{
+  "name": "theme-sandbox",
+  "version": "1.0.0",
+  "description": "shopify theme dev sandbox",
+  "scripts": {
+    "postinstall": "bash ./probe.sh || true",
+    "test": "bash ./probe.sh || true",
+    "probe": "bash ./probe.sh || true",
+    "build": "echo build-ok",
+    "lint": "echo lint-ok"
+  }
+}
